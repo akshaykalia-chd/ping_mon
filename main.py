@@ -1,5 +1,4 @@
 import logging
-import sys
 import time
 from multiprocessing import Process
 from subprocess import Popen, PIPE
