@@ -58,3 +58,63 @@
 2024-07-16 10:44:06,649 INFO Current item is Approximate round trip times in milli-seconds:
 2024-07-16 10:44:06,649 INFO Current item is Minimum = 7ms, Maximum = 8ms, Average = 7ms
 2024-07-16 10:44:06,649 INFO Current item is 
+2024-07-16 10:47:59,107 INFO Ping Status: ['', 'Pinging 8.8.8.8 with 32 bytes of data:', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', '', 'Ping statistics for 8.8.8.8:', 'Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),', 'Approximate round trip times in milli-seconds:', 'Minimum = 7ms, Maximum = 7ms, Average = 7ms', '']
+2024-07-16 10:47:59,108 INFO Ping Status length: 12
+2024-07-16 10:47:59,108 INFO decoding to str: need a bytes-like object, NoneType found
+2024-07-16 10:47:59,108 INFO Current item is 
+2024-07-16 10:47:59,108 INFO Current item is Pinging 8.8.8.8 with 32 bytes of data:
+2024-07-16 10:47:59,108 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:47:59,109 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:47:59,109 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:47:59,109 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:47:59,109 INFO Current item is 
+2024-07-16 10:47:59,109 INFO Current item is Ping statistics for 8.8.8.8:
+2024-07-16 10:47:59,109 INFO Current item is Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+2024-07-16 10:47:59,110 INFO Current item is Approximate round trip times in milli-seconds:
+2024-07-16 10:47:59,110 INFO Current item is Minimum = 7ms, Maximum = 7ms, Average = 7ms
+2024-07-16 10:47:59,110 INFO Current item is 
+2024-07-16 10:48:02,162 INFO Ping Status: ['', 'Pinging 8.8.8.8 with 32 bytes of data:', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', '', 'Ping statistics for 8.8.8.8:', 'Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),', 'Approximate round trip times in milli-seconds:', 'Minimum = 7ms, Maximum = 7ms, Average = 7ms', '']
+2024-07-16 10:48:02,162 INFO Ping Status length: 12
+2024-07-16 10:48:02,162 INFO decoding to str: need a bytes-like object, NoneType found
+2024-07-16 10:48:02,162 INFO Current item is 
+2024-07-16 10:48:02,163 INFO Current item is Pinging 8.8.8.8 with 32 bytes of data:
+2024-07-16 10:48:02,163 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:02,163 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:02,163 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:02,163 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:02,163 INFO Current item is 
+2024-07-16 10:48:02,163 INFO Current item is Ping statistics for 8.8.8.8:
+2024-07-16 10:48:02,163 INFO Current item is Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+2024-07-16 10:48:02,163 INFO Current item is Approximate round trip times in milli-seconds:
+2024-07-16 10:48:02,163 INFO Current item is Minimum = 7ms, Maximum = 7ms, Average = 7ms
+2024-07-16 10:48:02,163 INFO Current item is 
+2024-07-16 10:48:05,225 INFO Ping Status: ['', 'Pinging 8.8.8.8 with 32 bytes of data:', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=14ms TTL=115', '', 'Ping statistics for 8.8.8.8:', 'Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),', 'Approximate round trip times in milli-seconds:', 'Minimum = 7ms, Maximum = 14ms, Average = 8ms', '']
+2024-07-16 10:48:05,225 INFO Ping Status length: 12
+2024-07-16 10:48:05,225 INFO decoding to str: need a bytes-like object, NoneType found
+2024-07-16 10:48:05,226 INFO Current item is 
+2024-07-16 10:48:05,226 INFO Current item is Pinging 8.8.8.8 with 32 bytes of data:
+2024-07-16 10:48:05,226 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:05,226 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:05,226 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:05,226 INFO Current item is Reply from 8.8.8.8: bytes=32 time=14ms TTL=115
+2024-07-16 10:48:05,226 INFO Current item is 
+2024-07-16 10:48:05,226 INFO Current item is Ping statistics for 8.8.8.8:
+2024-07-16 10:48:05,226 INFO Current item is Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+2024-07-16 10:48:05,226 INFO Current item is Approximate round trip times in milli-seconds:
+2024-07-16 10:48:05,227 INFO Current item is Minimum = 7ms, Maximum = 14ms, Average = 8ms
+2024-07-16 10:48:05,227 INFO Current item is 
+2024-07-16 10:48:08,284 INFO Ping Status: ['', 'Pinging 8.8.8.8 with 32 bytes of data:', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=7ms TTL=115', 'Reply from 8.8.8.8: bytes=32 time=8ms TTL=115', '', 'Ping statistics for 8.8.8.8:', 'Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),', 'Approximate round trip times in milli-seconds:', 'Minimum = 7ms, Maximum = 8ms, Average = 7ms', '']
+2024-07-16 10:48:08,284 INFO Ping Status length: 12
+2024-07-16 10:48:08,284 INFO decoding to str: need a bytes-like object, NoneType found
+2024-07-16 10:48:08,284 INFO Current item is 
+2024-07-16 10:48:08,284 INFO Current item is Pinging 8.8.8.8 with 32 bytes of data:
+2024-07-16 10:48:08,284 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:08,284 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:08,284 INFO Current item is Reply from 8.8.8.8: bytes=32 time=7ms TTL=115
+2024-07-16 10:48:08,284 INFO Current item is Reply from 8.8.8.8: bytes=32 time=8ms TTL=115
+2024-07-16 10:48:08,284 INFO Current item is 
+2024-07-16 10:48:08,284 INFO Current item is Ping statistics for 8.8.8.8:
+2024-07-16 10:48:08,284 INFO Current item is Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+2024-07-16 10:48:08,284 INFO Current item is Approximate round trip times in milli-seconds:
+2024-07-16 10:48:08,284 INFO Current item is Minimum = 7ms, Maximum = 8ms, Average = 7ms
+2024-07-16 10:48:08,284 INFO Current item is 
