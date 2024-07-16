@@ -2,7 +2,9 @@ import logging
 import time
 from multiprocessing import Process
 from subprocess import Popen, PIPE
+import platform
 
+OS = platform.system()
 
 def setup_logger(name, log_file, level=logging.INFO):
     formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
@@ -19,19 +21,31 @@ app_log = setup_logger(name='app_log', log_file="./app_log")
 
 
 def ping_mon(count: int, host: str):
-    proc = Popen(["ping", "-c", str(count), host], stdout=PIPE)
+    if OS == "Windows":
+        proc = Popen(["ping", "-n", str(count), host], stdout=PIPE)
+    else:
+        proc = Popen(["ping", "-c", str(count), host], stdout=PIPE)
     output = proc.communicate()
     ping_data = f"Ping to {host} "
     for item in output:
         try:
             status = str(item, encoding='utf-8')
-            status = status.split('\n')
+            if OS == "Windows":
+                status = status.split('\r')
+            else:
+                status = status.split('\n')
+            app_log.info(f'Ping Status: {status}')
+            app_log.info(f'Ping Status length: {len(status)}')
         except TypeError as e:
             app_log.info(e)
     for item in status:
-        if "packet loss" in item:
+        if "packet loss" or "loss" in item:
+            item = item.lstrip('\n')
+            item = item.rstrip('\n')
             ping_data += item + " "
-        if "round-trip" in item:
+        if "round-trip" or "Average" in item:
+            item = item.lstrip('\n')
+            item = item.rstrip('\n')
             ping_data += item
 
     ping_log.info(ping_data)
